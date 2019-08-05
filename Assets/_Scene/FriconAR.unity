@@ -2755,36 +2755,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cf498fc35b538884db557f7a9a2c0ef9, type: 3}
---- !u!1 &1474839034
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1474839035}
-  m_Layer: 0
-  m_Name: GameObject
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1474839035
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1474839034}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.33549076, y: -0.107037485, z: 1.2273297}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 11
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1493372549
 GameObject:
   m_ObjectHideFlags: 0
@@ -4202,6 +4172,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5897799061377993486, guid: 1250c88f17bd74845b330dd6bc010168,
+        type: 3}
+      propertyPath: m_Name
+      value: UI Manager
+      objectReference: {fileID: 0}
     - target: {fileID: 5897799061377993485, guid: 1250c88f17bd74845b330dd6bc010168,
         type: 3}
       propertyPath: UIOpening
@@ -4232,11 +4207,6 @@ PrefabInstance:
       propertyPath: UICatalogoPlacing
       value: 
       objectReference: {fileID: 1915940234}
-    - target: {fileID: 5897799061377993486, guid: 1250c88f17bd74845b330dd6bc010168,
-        type: 3}
-      propertyPath: m_Name
-      value: UI Manager
-      objectReference: {fileID: 0}
     - target: {fileID: 5897799061377993484, guid: 1250c88f17bd74845b330dd6bc010168,
         type: 3}
       propertyPath: m_LocalPosition.x
