@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class UIManager : Singleton<UIManager>
 {
@@ -22,8 +23,11 @@ public class UIManager : Singleton<UIManager>
     }
     public void Button_Marcador()
     {
-        
+        UIOpening.SetActive(false);
+        UICatalogo.SetActive(true);
 
+        //Load Scene
+        SceneManager.LoadScene(1);
     }
     public void Button_ComoUsar()
     {
